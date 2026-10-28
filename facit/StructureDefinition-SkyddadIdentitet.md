@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-SkyddadIdentitet.csv
   "name" : "SkyddadIdentitet",
   "title" : "Skyddad identitet",
   "status" : "draft",
-  "date" : "2026-10-28T14:14:36+00:00",
+  "date" : "2026-10-28T14:20:06+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "Anger om patienten har skyddade personuppgifter (t.ex. sekretessmarkering eller skyddad folkbokföring).",
   "jurisdiction" : [{

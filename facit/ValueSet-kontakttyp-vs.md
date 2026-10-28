@@ -51,7 +51,7 @@ Alla koder i kodsystemet Kontakttyp.
   "title" : "Kontakttyp – ValueSet",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2026-10-28T14:14:36+00:00",
+  "date" : "2026-10-28T14:20:06+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "Alla koder i kodsystemet Kontakttyp.",
   "jurisdiction" : [{
