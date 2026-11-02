@@ -47,7 +47,7 @@ Detta är en R4 IG. Inga av funktionerna den använder har ändrats i R4B, så d
   "name" : "FhirEducationKursIG",
   "title" : "FHIR-utbildning – Kurs-IG - 20261101",
   "status" : "draft",
-  "date" : "2026-11-02T08:15:47+00:00",
+  "date" : "2026-11-02T10:50:21+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen.",
   "jurisdiction" : [{
@@ -394,6 +394,22 @@ Detta är en R4 IG. Inga av funktionerna den använder har ändrats i R4B, så d
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-EducationEncounter.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/EducationEncounter"
+      },
+      "name" : "Education Encounter",
+      "description" : "Profil för en vårdkontakt i FHIR-utbildningen.",
+      "exampleBoolean" : false
+    },
+    {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
