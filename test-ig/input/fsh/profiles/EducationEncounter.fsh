@@ -1,5 +1,5 @@
 // Lösning efter övning 3.2: profilen utan terminologibindningar (de läggs till i övning 3.3).
-Profile: Education Encounter
+Profile: EducationEncounter
 Parent: Encounter
 Id: EducationEncounter
 Title: "Min profil"
