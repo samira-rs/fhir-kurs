@@ -47,7 +47,7 @@ Detta är en R4 IG. Inga av funktionerna den använder har ändrats i R4B, så d
   "name" : "FhirEducationKursIG",
   "title" : "FHIR-utbildning – Kurs-IG - 20261101",
   "status" : "draft",
-  "date" : "2026-11-02T10:50:21+00:00",
+  "date" : "2026-11-02T11:00:29+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen.",
   "jurisdiction" : [{
@@ -400,13 +400,13 @@ Detta är en R4 IG. Inga av funktionerna den använder har ändrats i R4B, så d
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-EducationEncounter.html"
+        "valueUri" : "StructureDefinition-EducationPatient.html"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/EducationEncounter"
+        "reference" : "StructureDefinition/EducationPatient"
       },
-      "name" : "Education Encounter",
-      "description" : "Profil för en vårdkontakt i FHIR-utbildningen.",
+      "name" : "Education Patient",
+      "description" : "Patientprofil för FHIR-utbildningen. Profilen byggs ut steg för steg under kursen.",
       "exampleBoolean" : false
     },
     {
@@ -416,13 +416,13 @@ Detta är en R4 IG. Inga av funktionerna den använder har ändrats i R4B, så d
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-EducationPatient.html"
+        "valueUri" : "StructureDefinition-EducationEncounter.html"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/EducationPatient"
+        "reference" : "StructureDefinition/EducationEncounter"
       },
-      "name" : "Education Patient",
-      "description" : "Patientprofil för FHIR-utbildningen. Profilen byggs ut steg för steg under kursen.",
+      "name" : "Min profil",
+      "description" : "Profil för en vårdkontakt i FHIR-utbildningen.",
       "exampleBoolean" : false
     },
     {

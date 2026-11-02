@@ -13,8 +13,8 @@ These define constraints on FHIR resources for systems conforming to this implem
 
 | | |
 | :--- | :--- |
-| [Education Encounter](StructureDefinition-EducationEncounter.md) | Profil för en vårdkontakt i FHIR-utbildningen. |
 | [Education Patient](StructureDefinition-EducationPatient.md) | Patientprofil för FHIR-utbildningen. Profilen byggs ut steg för steg under kursen. |
+| [Min profil](StructureDefinition-EducationEncounter.md) | Profil för en vårdkontakt i FHIR-utbildningen. |
 
 ### Example: Example Instances 
 

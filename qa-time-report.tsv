@@ -1,11 +1,11 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-fhir.education.kursig.json	2325	-	0	0	0	0	0	0	14	81	0	0	0	0	0	0	0	0	0	0	57	49	0	0	0	1	0	0
-fsh-generated/resources/Patient-patient-tolvan.json	494	3	0	0	2	0	0	0	0	308	0	0	0	0	0	0	0	0	0	0	5	9	0	0	1	0	0	0
-fsh-generated/resources/StructureDefinition-EducationEncounter.json	636	2	0	81	0	0	0	0	0	266	0	0	1	0	0	0	0	3	0	0	230	802	0	0	0	9	0	1
-fsh-generated/resources/StructureDefinition-EducationPatient.json	1596	2	0	56	0	0	0	0	0	42	0	0	0	0	0	0	0	0	0	0	200	382	0	0	0	8	1	1
-/fsh-generated/includes/fsh-link-references.md	173	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/fsh-generated/resources/ImplementationGuide-fhir.education.kursig.json	2316	-	0	0	0	0	0	0	10	59	0	0	0	0	0	0	0	0	0	0	44	58	0	0	0	2	0	0
+fsh-generated/resources/Patient-patient-tolvan.json	494	3	0	0	2	0	0	0	0	203	0	0	0	0	0	0	0	0	0	0	4	11	0	0	1	0	0	0
+fsh-generated/resources/StructureDefinition-EducationEncounter.json	915	1	0	56	0	0	0	0	1	316	0	0	0	0	0	0	0	2	0	0	157	686	0	0	0	6	0	1
+fsh-generated/resources/StructureDefinition-EducationPatient.json	1596	2	0	47	0	0	0	0	0	30	0	0	0	0	0	0	0	0	0	0	427	297	0	0	0	7	0	0
+/fsh-generated/includes/fsh-link-references.md	173	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /fsh-generated/includes/menu.xml	1043	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/pagecontent/index.md	1096	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/pagecontent/index.md	1096	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 /template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/temp/pages/_includes/artifacts.xml	2573	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0
+/template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+/temp/pages/_includes/artifacts.xml	2564	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0

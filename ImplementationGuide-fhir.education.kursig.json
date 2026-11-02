@@ -10,7 +10,7 @@
   "name" : "FhirEducationKursIG",
   "title" : "FHIR-utbildning – Kurs-IG - 20261101",
   "status" : "draft",
-  "date" : "2026-11-02T10:50:21+00:00",
+  "date" : "2026-11-02T11:00:29+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "En liten Implementation Guide som byggs upp steg för steg under FHIR-utbildningen.",
   "jurisdiction" : [{
@@ -362,10 +362,10 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/EducationEncounter"
+        "reference" : "StructureDefinition/EducationPatient"
       },
-      "name" : "Education Encounter",
-      "description" : "Profil för en vårdkontakt i FHIR-utbildningen.",
+      "name" : "Education Patient",
+      "description" : "Patientprofil för FHIR-utbildningen. Profilen byggs ut steg för steg under kursen.",
       "exampleBoolean" : false
     },
     {
@@ -374,10 +374,10 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/EducationPatient"
+        "reference" : "StructureDefinition/EducationEncounter"
       },
-      "name" : "Education Patient",
-      "description" : "Patientprofil för FHIR-utbildningen. Profilen byggs ut steg för steg under kursen.",
+      "name" : "Min profil",
+      "description" : "Profil för en vårdkontakt i FHIR-utbildningen.",
       "exampleBoolean" : false
     },
     {

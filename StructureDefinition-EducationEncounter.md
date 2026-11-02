@@ -1,10 +1,10 @@
-# Education Encounter - FHIR-utbildning – Kurs-IG - 20261101 v0.1.0
+# Min profil - FHIR-utbildning – Kurs-IG - 20261101 v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Education Encounter**
+* **Min profil**
 
-## Resource Profile: Education Encounter 
+## Resource Profile: Min profil 
 
 | | |
 | :--- | :--- |
@@ -39,9 +39,9 @@ Other representations of profile: [CSV](StructureDefinition-EducationEncounter.c
   "url" : "http://example.org/fhir/education/kursig/StructureDefinition/EducationEncounter",
   "version" : "0.1.0",
   "name" : "EducationEncounter",
-  "title" : "Education Encounter",
+  "title" : "Min profil",
   "status" : "draft",
-  "date" : "2026-11-02T10:50:21+00:00",
+  "date" : "2026-11-02T11:00:29+00:00",
   "publisher" : "FHIR-utbildning",
   "description" : "Profil för en vårdkontakt i FHIR-utbildningen.",
   "jurisdiction" : [{
@@ -81,6 +81,16 @@ Other representations of profile: [CSV](StructureDefinition-EducationEncounter.c
     "element" : [{
       "id" : "Encounter",
       "path" : "Encounter"
+    },
+    {
+      "id" : "Encounter.subject",
+      "path" : "Encounter.subject",
+      "min" : 1,
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://example.org/fhir/education/kursig/StructureDefinition/EducationPatient"]
+      }],
+      "mustSupport" : true
     }]
   }
 }
